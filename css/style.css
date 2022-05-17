@@ -1,3 +1,10 @@
 body{
-    color:aqua
+    background-color: #f4f4f4;
+    color: #cd9e85;
+
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight:600;
+    /* Same as above*/
+    font: 600 16px 'Courier New', Courier, monospace
 }
