@@ -1,3 +1,10 @@
+/*
+*{
+    margin: 0;
+    padding: ;
+}
+*/
+
 body{
     background-color: #f4f4f4;
     color: #cd9e85;
@@ -9,4 +16,91 @@ body{
     font: 600 16px 'Courier New', Courier, monospace;
 
     line-height: 1.5em;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color:#000;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: purple;
+}
+
+a:visited{
+    color:;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+    color:#fff;
+    
+    border-right: 5px purple solid;
+    border-left: 5px purple solid;
+    border-top: 5px purple solid;
+    border-bottom: 5px purple solid;
+    /* same as above */
+    border: 5px purple solid;
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    border-bottom-style:dashed;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* same as above */
+    padding:20px;
+
+    margin-top: 20px;
+    margin:20px 0;
+}
+
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight: 800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform:uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+}
+
+.box-2{
+    border: 2px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.categories{
+    border:1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style:square;
+    list-style:none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom:dotted 1px #333;
 }
